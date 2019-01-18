@@ -26,7 +26,7 @@ namespace ConsoleApp15
                     {
 
                     }
-
+                
 
                     switch (Choice) //startar Switchen
                     {
@@ -93,11 +93,14 @@ namespace ConsoleApp15
                             break;
 
                         case "Q":
-                            keepAlive = false;// stänger programmet
+                            keepAlive = false;
+                            break;
+                        case "q":
+                            keepAlive = false;
                             break;
 
-                            
-                      
+
+
 
 
 
@@ -115,10 +118,12 @@ namespace ConsoleApp15
                 }
                
                 
+          
+
             }
-            
-                
-            }
+
+        }
         }
     }
+
 
